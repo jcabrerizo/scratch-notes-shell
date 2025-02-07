@@ -26,3 +26,9 @@ egrep -r '(Error|Exception)' src annotation-generated-src | grep import | awk '{
 > com.amazonaws.services.mqinternal.model.BadRequestException;
 > com.amazonaws.services.mqinternal.model.NotFoundException;
 > ```
+
+## Add multiple lines into file
+
+```shell
+echo '# Just a comment\neval "$(command)"' >> ~/.zshrc
+```
