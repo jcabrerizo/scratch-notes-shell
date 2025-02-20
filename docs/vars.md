@@ -37,3 +37,11 @@ set
 % if [[ -z "${var+anything}" ]] ; then echo unset ; else echo set ; fi
 set
 ```
+
+## Bash variable syntax
+
+Show message error if var not defined using `:?error message`:
+
+```shell
+echo ${VARIABLE_NAME:?please set VARIABLE_NAME}
+```
