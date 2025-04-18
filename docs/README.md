@@ -88,3 +88,16 @@ do
   echo "Filename: $F"
 done
 ```
+
+Bash command arguments from `history`
+
+```
+!^      first argument
+!:2     second argument
+!:2-$   second to last arguments
+!:2*    second to last arguments
+!:2-    second to next to last arguments
+!:2-3   second to third arguments
+!$      last argument
+!*      all arguments
+```
